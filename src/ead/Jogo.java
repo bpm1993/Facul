@@ -36,7 +36,7 @@ public class Jogo extends JPanel implements KeyListener{
     }
     
     private void setGameScene(){
-        player = new Player();
+        //player = new Player();
         
     }
     
