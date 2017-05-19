@@ -42,6 +42,7 @@ public class Jogo extends JPanel implements KeyListener{
     
     public void paint(Graphics g) {
         super.paint(g);
+        //block.draw(g);
         g.setColor(player.color);
         g.fillOval(player.getX(), player.getY(), player.getRadius(), player.getRadius());
     }
